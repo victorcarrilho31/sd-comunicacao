@@ -14,7 +14,7 @@ public class MqttPublisher {
 		String topic = "temperature";
 		int qos = 2;
 		String broker = "tcp://localhost:1883";
-		String clientId = "JavaSample";
+		String clientId = "PubisherId";
 		MemoryPersistence persistence = new MemoryPersistence();
 
 		try {
