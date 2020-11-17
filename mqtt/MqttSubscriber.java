@@ -14,7 +14,7 @@ public class MqttSubscriber implements MqttCallback  {
 	private static final String brokerUrl ="tcp://localhost:1883";
 
 	/** The client id. */
-	private static final String clientId = "JavaSample";
+	private static final String clientId = "SubscriberId";
 
 	/** The topic. */
 	private static final String topic = "temperature";
